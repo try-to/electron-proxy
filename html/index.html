@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>proxy</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../src/css/pace.css">
+</head>
+<body>
+  <div class="container">
+      <div class="page-header">
+        <h1>Proxy<small>内网穿透</small></h1>
+      </div>
+      <form class="form">
+        <div class="row">
+          <div class="col-md-6 col-xs-12 col-sm-6">
+            <div class="form-group">
+              <label>名称</label>
+              <input type="text" class="form-control" placeholder="填写名称，不填则随机" name="subdomain" onkeyup="value=value.replace(/[\W]/g,'') "onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" >
+            </div>
+          </div>
+          <div class="col-md-6 col-xs-12 col-sm-6">
+            <div class="form-group">
+              <label>本地端口</label>
+              <input type="num" class="form-control" placeholder="本地端口" name="port" value="80" onkeyup="value=value.replace(/[^\d]/g,'') "onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+            </div>
+          </div>
+          <div class="col-md-6 col-xs-12 col-sm-6">
+            <div class="form-group">
+              <label>服务器</label>
+              <select class="form-control" name="host">
+                <option selected="" value="http://huahuashe.com">huahuashe.com</option>
+                <option value="http://localtunnel.me">localtunnel.me</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-12 col-xs-12 col-sm-12">
+            <a class="btn btn-primary run">启动</a>
+            <a class="btn btn-danger stop hide">停止</a>
+          </div>
+        </div>
+      </form>
+      <br>
+      <div class="tools"></div>
+  </div>
+</body>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script>window.$ = window.jQuery = require('../src/js/jquery.min.js');</script>
+<script src="../src/js/bootstrap.min.js"></script>
+<script src="../src/js/pace.min.js"></script>
+<script src="../proxy/proxy.js"></script>
+</html>

@@ -4,7 +4,7 @@
 
 ## 使用说明
 
-下载之后，按一下操作
+按以下步骤：
 
 ```bash
 # Clone this repository
@@ -16,7 +16,7 @@ npm install
 # Run the app
 npm start
 ```
-
+速度可能会很慢，是因为网络原因，建议使用[淘宝 NPM 镜像](https://npm.taobao.org/).
 
 ## 下载
 

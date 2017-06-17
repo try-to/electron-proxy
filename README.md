@@ -7,19 +7,22 @@
 按以下步骤：
 
 ```bash
-# Clone this repository
 git clone https://github.com/try-to/proxy
-# Go into the repository
 cd proxy
-# Install dependencies
 npm install
-# Run the app
 npm start
 ```
+## 软件打包
+```bash
+npm install grunt-electron-installer --save-dev
+npm install grunt --save-dev
+grunt
+```
+
 速度可能会很慢，是因为网络原因，建议使用[淘宝 NPM 镜像](https://npm.taobao.org/).
 
 ## 下载
 
-- [proxy-win-x64](https://github.com/try-to/proxy/) - Windows x64
-- [proxy-win-x32](https://github.com/try-to/proxy/) - Windows x32
+- [proxy-win-x64](http://downloads.tryto.cn/proxy/1.0.0/win64.zip) - Windows x64
+- [proxy-win-x32](http://downloads.tryto.cn/proxy/1.0.0/win32.zip) - Windows x32
 

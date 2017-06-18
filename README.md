@@ -1,7 +1,8 @@
 # proxy
 
 
-![try-to](https://github.com/try-to/proxy/blob/master/docs/img/2.png)
+![try-to](http://downloads.tryto.cn/proxy/1.0.0/img/2.png)
+![try-to](http://downloads.tryto.cn/proxy/1.0.0/img/3.png)
 
 **基于electron开发的内网穿透工具.**
 

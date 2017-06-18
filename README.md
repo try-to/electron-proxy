@@ -1,5 +1,8 @@
 # proxy
 
+
+![try-to](https://github.com/try-to/proxy/blob/master/docs/img/2.png)
+
 **基于electron开发的内网穿透工具.**
 
 ## 使用说明

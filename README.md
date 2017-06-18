@@ -8,14 +8,14 @@
 
 按以下步骤：
 
-```node
+```bash
 git clone https://github.com/try-to/proxy
 cd proxy
 npm install
 npm start
 ```
 ## 软件打包
-```node
+```bash
 npm install grunt-electron-installer --save-dev
 npm install grunt --save-dev
 grunt

@@ -25,6 +25,6 @@ grunt
 
 ## 下载
 
-- [proxy-win-x64](http://downloads.tryto.cn/proxy/1.0.0/win64.zip) - Windows x64
-- [proxy-win-x32](http://downloads.tryto.cn/proxy/1.0.0/win32.zip) - Windows x32
+- [proxy-win-x64](http://downloads.tryto.cn/proxy/1.0.1/win64.zip) - Windows x64
+- [proxy-win-x32](http://downloads.tryto.cn/proxy/1.0.1/win32.zip) - Windows x32
 

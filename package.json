@@ -1,7 +1,8 @@
 {
   "name": "proxy",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "authors": "Wenjie",
+  "description": "Wenjie Development of Intranet penetration tools",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -9,8 +10,7 @@
   },
   "license": "",
   "dependencies": {
-    "request": "2.81.0",
-    "debug": "2.6.8"
+    "request": "2.81.0"
   },
   "devDependencies": {
     "electron": "~1.6.2",

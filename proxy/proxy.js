@@ -1,7 +1,9 @@
 const ipcRenderer = require('electron').ipcRenderer;
 const shell = require('electron').shell
+const package = require('../package')
 
 $(function () {
+	$('.version').html('version:'+package.version);
 	//表单提交
 	$('.run').on('click',function (event) {
 		event.preventDefault();

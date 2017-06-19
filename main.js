@@ -20,7 +20,7 @@ const CrawlService = require('./proxy/crawlService');
 const appIcon = require('./proxy/appIcon');
 
 //url协议,用于地址打开
-app.setAsDefaultProtocolClient('wj-proxy')
+// app.setAsDefaultProtocolClient('wj-proxy')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.

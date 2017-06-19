@@ -9,8 +9,8 @@
 按以下步骤：
 
 ```bash
-git clone https://github.com/try-to/proxy
-cd proxy
+git clone https://github.com/try-to/electron-proxy
+cd electron-proxy
 npm install
 npm start
 ```

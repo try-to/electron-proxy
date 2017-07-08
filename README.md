@@ -16,6 +16,8 @@ npm start
 ```
 ## 软件打包
 ```bash
+npm install --save-dev electron-packager
+npm run packager
 npm install grunt-electron-installer --save-dev
 npm install grunt --save-dev
 grunt

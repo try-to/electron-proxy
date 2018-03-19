@@ -2,7 +2,7 @@
 
 **基于electron开发的内网穿透工具.**
 
-![try-to](http://downloads.tryto.cn/proxy/1.0.1/img/2.png)
+![try-to](https://github.com/try-to/electron-proxy/blob/master/docs/img/1.png)
 
 ## 使用说明
 

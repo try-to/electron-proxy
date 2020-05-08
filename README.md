@@ -1,6 +1,6 @@
 # proxy
 
-**基于electron localtunnel 开发的内网穿透工具.**
+**基于electron开发的内网穿透工具.**
 
 ![try-to](https://github.com/try-to/electron-proxy/blob/master/docs/img/1.png)
 
@@ -25,6 +25,10 @@ grunt
 
 速度可能会很慢，是因为网络原因，建议使用[淘宝 NPM 镜像](https://npm.taobao.org/).
 
-## 下载
+## 扩展
+
+localtunnel https://github.com/localtunnel/localtunnel
+
+自定义服务器参考 https://github.com/localtunnel/server
 
 

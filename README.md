@@ -1,6 +1,6 @@
 # proxy
 
-**基于electron开发的内网穿透工具.**
+**基于electron localtunnel 开发的内网穿透工具.**
 
 ![try-to](https://github.com/try-to/electron-proxy/blob/master/docs/img/1.png)
 

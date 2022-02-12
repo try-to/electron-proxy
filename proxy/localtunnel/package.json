@@ -25,5 +25,5 @@
   },
   "main": "./client.js",
   "_from": "localtunnel@1.8.3",
-  "_resolved": "http://registry.npm.taobao.org/localtunnel/download/localtunnel-1.8.3.tgz"
+  "_resolved": "https://registry.npmmirror.com/localtunnel/download/localtunnel-1.8.3.tgz"
 }
